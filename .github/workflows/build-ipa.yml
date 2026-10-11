@@ -10,7 +10,7 @@ on:
 jobs:
   build-ipa:
     name: Build Unsigned iPSX2.ipa
-    runs-on: macos-14        # Apple Silicon runner — fastest for arm64 iOS
+    runs-on: macos-15        # Apple Silicon runner — fastest for arm64 iOS
 
     env:
       SCHEME: iPSX2
